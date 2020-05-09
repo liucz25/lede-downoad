@@ -1,0 +1,1 @@
+/home/lcz/code/lede/staging_dir/target-mipsel_24kc_musl/../host/share/libtool/config/ltmain.sh

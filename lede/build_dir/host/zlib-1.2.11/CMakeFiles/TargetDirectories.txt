@@ -1,0 +1,13 @@
+/home/lcz/code/lede/build_dir/host/zlib-1.2.11/CMakeFiles/install/local.dir
+/home/lcz/code/lede/build_dir/host/zlib-1.2.11/CMakeFiles/install.dir
+/home/lcz/code/lede/build_dir/host/zlib-1.2.11/CMakeFiles/list_install_components.dir
+/home/lcz/code/lede/build_dir/host/zlib-1.2.11/CMakeFiles/rebuild_cache.dir
+/home/lcz/code/lede/build_dir/host/zlib-1.2.11/CMakeFiles/edit_cache.dir
+/home/lcz/code/lede/build_dir/host/zlib-1.2.11/CMakeFiles/test.dir
+/home/lcz/code/lede/build_dir/host/zlib-1.2.11/CMakeFiles/install/strip.dir
+/home/lcz/code/lede/build_dir/host/zlib-1.2.11/CMakeFiles/example64.dir
+/home/lcz/code/lede/build_dir/host/zlib-1.2.11/CMakeFiles/minigzip.dir
+/home/lcz/code/lede/build_dir/host/zlib-1.2.11/CMakeFiles/example.dir
+/home/lcz/code/lede/build_dir/host/zlib-1.2.11/CMakeFiles/zlibstatic.dir
+/home/lcz/code/lede/build_dir/host/zlib-1.2.11/CMakeFiles/minigzip64.dir
+/home/lcz/code/lede/build_dir/host/zlib-1.2.11/CMakeFiles/zlib.dir

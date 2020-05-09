@@ -1,0 +1,37 @@
+# CMake generated Testfile for 
+# Source directory: /home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests
+# Build directory: /home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(CMake.List "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/ListTest.cmake")
+add_test(CMake.VariableWatch "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/VariableWatchTest.cmake")
+add_test(CMake.Include "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/IncludeTest.cmake")
+add_test(CMake.FindBase "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/FindBaseTest.cmake")
+add_test(CMake.Toolchain "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/ToolchainTest.cmake")
+add_test(CMake.GetFilenameComponentRealpath "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/GetFilenameComponentRealpathTest.cmake")
+add_test(CMake.Version "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/VersionTest.cmake")
+add_test(CMake.Message "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/MessageTest.cmake")
+add_test(CMake.File "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/FileTest.cmake")
+add_test(CMake.ImplicitLinkInfo "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/ImplicitLinkInfoTest.cmake")
+add_test(CMake.ModuleNotices "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/ModuleNoticesTest.cmake")
+add_test(CMake.GetProperty "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/GetPropertyTest.cmake")
+add_test(CMake.If "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/IfTest.cmake")
+add_test(CMake.String "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/StringTest.cmake")
+add_test(CMake.Math "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/MathTest.cmake")
+add_test(CMake.CMakeMinimumRequired "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/CMakeMinimumRequiredTest.cmake")
+add_test(CMake.CompilerIdVendor "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/CompilerIdVendorTest.cmake")
+add_test(CMake.ProcessorCount "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-DKWSYS_TEST_EXE=/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Source/kwsys/cmsysTestsCxx" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/ProcessorCountTest.cmake")
+add_test(CMake.PushCheckState "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/PushCheckStateTest.cmake")
+add_test(CMake.While "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/WhileTest.cmake")
+add_test(CMake.CMakeHostSystemInformation "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/CMakeHostSystemInformationTest.cmake")
+add_test(CMake.FileDownload "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/FileDownloadTest.cmake")
+set_tests_properties(CMake.FileDownload PROPERTIES  PASS_REGULAR_EXPRESSION "file already exists with expected MD5 sum")
+add_test(CMake.FileDownloadBadHash "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/FileDownloadBadHashTest.cmake")
+set_tests_properties(CMake.FileDownloadBadHash PROPERTIES  WILL_FAIL "TRUE")
+add_test(CMake.FileUpload "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/FileUploadTest.cmake")
+add_test(CMake.ELF "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/ELFTest.cmake")
+add_test(CMake.EndStuff "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-Ddir:STRING=/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/EndStuffTest" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/EndStuffTest.cmake")
+add_test(CMake.GetPrerequisites "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-DConfiguration:STRING=" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/GetPrerequisitesTest.cmake")
+add_test(CMake.PolicyCheck "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-DCMake_BINARY_DIR:PATH=/home/lcz/code/lede/build_dir/host/cmake-3.13.2" "-DCMake_SOURCE_DIR:PATH=/home/lcz/code/lede/build_dir/host/cmake-3.13.2" "-DGIT_EXECUTABLE:STRING=/home/lcz/code/lede/staging_dir/host/bin/git" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/PolicyCheckTest.cmake")
+add_test(CMake.CheckSourceTree "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/bin/cmake" "-DCMake_BINARY_DIR:PATH=/home/lcz/code/lede/build_dir/host/cmake-3.13.2" "-DCMake_SOURCE_DIR:PATH=/home/lcz/code/lede/build_dir/host/cmake-3.13.2" "-DGIT_EXECUTABLE:STRING=/home/lcz/code/lede/staging_dir/host/bin/git" "-DHOME:STRING=/home/lcz" "-P" "/home/lcz/code/lede/build_dir/host/cmake-3.13.2/Tests/CMakeTests/CheckSourceTreeTest.cmake")

@@ -1,0 +1,10 @@
+#! /usr/bin/env bash
+
+# the next program must exit with error
+
+if $* ./no_optgiven; 
+then false; 
+else 
+        if $* ./no_optgiven2; then false;
+        else true; fi
+fi

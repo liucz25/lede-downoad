@@ -1,0 +1,10 @@
+prefix=/home/lcz/code/lede/staging_dir/host
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+pkgdatadir=${datadir}/mm-common
+doctooldir=${pkgdatadir}/doctool
+
+Name: mm-common-util
+Description: mm-common's doctool build utilities for the GNOME C++ bindings
+Version: 0.9.12
+URL: http://www.gtkmm.org/

@@ -1,0 +1,57 @@
+Source-Makefile: package/firmware/ath10k-firmware/Makefile
+
+Package: ath10k-firmware-qca9887
+Version: 2020-05-06-d58efac2ae3e1ec1b1f45e7d5ead20d1b79f9415-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: firmware
+Category: Firmware
+Repository: base
+Title: ath10k firmware for QCA9887 devices
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Source: ath10k-firmware-2020-05-06-d58efac2ae3e1ec1b1f45e7d5ead20d1b79f9415.tar.xz
+Type: ipkg
+Description: ath10k firmware for QCA9887 devices
+https://github.com/kvalo/ath10k-firmware.git
+Felix Fietkau <nbd@nbd.name>
+@@
+
+Package: ath10k-firmware-qca988x
+Version: 2020-05-06-d58efac2ae3e1ec1b1f45e7d5ead20d1b79f9415-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: firmware
+Category: Firmware
+Repository: base
+Title: ath10k firmware for QCA988x devices
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Source: ath10k-firmware-2020-05-06-d58efac2ae3e1ec1b1f45e7d5ead20d1b79f9415.tar.xz
+Type: ipkg
+Description: ath10k firmware for QCA988x devices
+https://github.com/kvalo/ath10k-firmware.git
+Felix Fietkau <nbd@nbd.name>
+@@
+
+Package: ath10k-firmware-qca4019
+Version: 2020-05-06-d58efac2ae3e1ec1b1f45e7d5ead20d1b79f9415-1
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: firmware
+Category: Firmware
+Repository: base
+Title: ath10k firmware for IPQ/QCA4019 devices
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Source: ath10k-firmware-2020-05-06-d58efac2ae3e1ec1b1f45e7d5ead20d1b79f9415.tar.xz
+Type: ipkg
+Description: ath10k firmware for IPQ/QCA4019 devices
+https://github.com/kvalo/ath10k-firmware.git
+Felix Fietkau <nbd@nbd.name>
+@@
+
+

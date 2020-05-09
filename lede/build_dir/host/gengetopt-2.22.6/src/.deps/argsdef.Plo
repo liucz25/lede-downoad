@@ -1,0 +1,7 @@
+argsdef.lo: argsdef.c /usr/include/stdc-predef.h ../config.h argsdef.h
+
+/usr/include/stdc-predef.h:
+
+../config.h:
+
+argsdef.h:

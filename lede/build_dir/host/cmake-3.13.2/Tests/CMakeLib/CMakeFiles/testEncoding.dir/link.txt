@@ -1,0 +1,1 @@
+/home/lcz/code/lede/staging_dir/host/bin/g++  -O2 -I/home/lcz/code/lede/staging_dir/host/include  -L/home/lcz/code/lede/staging_dir/host/lib -rdynamic CMakeFiles/testEncoding.dir/testEncoding.cxx.o  -o testEncoding ../../Source/kwsys/libcmsys.a -ldl 
